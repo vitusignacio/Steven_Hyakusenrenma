@@ -99,55 +99,52 @@ h3 {
   font-size: 2.5em;
   line-height: 1.3em; }
 
-article {
+.main-body {
+  padding: 3em 0; }
+
+.listing-card {
   font-size: 14px;
   box-shadow: 0px 0px 35px -2px #8f8f8f;
   padding: 1em;
   line-height: 1.8em; }
-  article > figure {
+  .listing-card > figure {
     background: url("../images/bg-new-york.jpeg") -10px -10px no-repeat;
     background-size: 110% 260px;
     display: block;
     height: 9em;
     margin: -1em -1em 1.5em -1em;
     position: relative; }
-
-figure div.photo {
-  position: absolute;
-  bottom: 0;
-  font-weight: bold;
-  background-color: #E54D42;
-  color: white;
-  padding: 0.3em 1.5em 0.3em 1em;
-  width: 50px; }
-figure div.bubble {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  font-weight: bold;
-  background-color: #E54D42;
-  padding: 1em;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px; }
-  figure div.bubble p {
-    position: relative;
-    top: -6px;
+  .listing-card .listing-card-subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #E54D42; }
+  .listing-card .listing-card-comment {
+    color: gray; }
+  .listing-card figure div.photo {
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    background-color: #E54D42;
     color: white;
-    line-height: 1px;
-    text-align: center; }
+    padding: 0.3em 1.5em 0.3em 1em;
+    width: 50px; }
+  .listing-card figure div.bubble {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-weight: bold;
+    background-color: #E54D42;
+    padding: 1em;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px; }
+    .listing-card figure div.bubble p {
+      position: relative;
+      top: -6px;
+      color: white;
+      line-height: 1px;
+      text-align: center; }
 
 p span {
   display: inline-block;
   margin-right: 15px; }
-
-.listing-card-subtitle {
-  font-size: 16px;
-  font-weight: bold;
-  color: #E54D42; }
-
-.comment-section {
-  color: gray; }
-
-.main-body {
-  padding: 3em 0; }
