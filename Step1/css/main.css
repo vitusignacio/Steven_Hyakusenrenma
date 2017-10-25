@@ -141,7 +141,7 @@ p span {
   display: inline-block;
   margin-right: 15px; }
 
-.row p:nth-child(3n - 3) {
+.listing-card-subtitle {
   font-size: 16px;
   font-weight: bold;
   color: #E54D42; }
