@@ -112,15 +112,15 @@ article {
     margin: -1em -1em 1.5em -1em;
     position: relative; }
 
-figure summary.photo {
+figure div.photo {
   position: absolute;
   bottom: 0;
   font-weight: bold;
   background-color: #E54D42;
   color: white;
-  padding: 0.3em 1em 0.3em 1em;
+  padding: 0.3em 1.5em 0.3em 1em;
   width: 50px; }
-figure summary.bubble {
+figure div.bubble {
   position: absolute;
   top: 15px;
   right: 15px;
@@ -130,7 +130,7 @@ figure summary.bubble {
   border-radius: 50%;
   width: 30px;
   height: 30px; }
-  figure summary.bubble p {
+  figure div.bubble p {
     position: relative;
     top: -6px;
     color: white;
