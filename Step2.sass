@@ -1,14 +1,24 @@
 // ======================
+// Resources Dictionary
+// ======================
+$tag_plate_icon_color: black
+$deep_gray: darkgray
+$light_gray: lightgray
+
+=pc_view
+  border-bottom: 1px solid $light_gray
+
+// ======================
 // Tags
 // ======================
 .tag__plate
- .plate__icon
+  .plate__icon
     position: relative
-      display: inline-block
+    display: inline-block
     width: 2.5em
     height: 2.5em
     margin-right: .5em
-    border: solid 1px $tag_plate_icon_color
+    border-style: solid 1px $tag_plate_icon_color
     border-radius: 50%
     vertical-align: middle
     .icon__inner
@@ -20,7 +30,7 @@
         width: 1.5em
         height: 2.5em
         vertical-align: middle
-        font-color: $tag_plate_icon_color
+        color: $tag_plate_icon_color
         &:after
           font-size: 1.5em
           font-family: 'stayjapan-icon' !important
@@ -31,6 +41,7 @@
 div.section__article
   .section__element
     padding: 32px 0
+    +pc_view
     .section__element__headline
       margin: 0px
       h2#top-header
@@ -41,12 +52,10 @@ div.section__article
         border: none
       .section__element__headline__content
         font-size: 1.4rem
-    +pc_view
-      border-bottom: 1px solid $light_gray
       .section__element__headline
         display: inline-block
         vertical-align: top
-        width: 29%;
+        width: 29%
         h2
           margin: 0 0 10px
           color: $deep_gray
@@ -54,4 +63,4 @@ div.section__article
           font-weight: bold
       .section__element__content
         display: inline-block
-        width: 71%
+        width: 71% 

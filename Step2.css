@@ -1,3 +1,14 @@
+.tag__plate .plate__icon { position: relative; display: inline-block; width: 2.5em; height: 2.5em; margin-right: 0.5em; border-style: solid 1px black; border-radius: 50%; vertical-align: middle; }
+.tag__plate .plate__icon .icon__inner { display: table; width: 100%; text-align: center; }
+.tag__plate .plate__icon .icon__inner .icon__image { display: table-cell; width: 1.5em; height: 2.5em; vertical-align: middle; color: black; }
+.tag__plate .plate__icon .icon__inner .icon__image:after { font-size: 1.5em; font-family: "stayjapan-icon" !important; }
 
+div.section__article .section__element { padding: 32px 0; border-bottom: 1px solid lightgray; }
+div.section__article .section__element .section__element__headline { margin: 0px; }
+div.section__article .section__element .section__element__headline h2#top-header { margin: 0px 0px 10px 0px; color: darkgray; font-size: 1.6rem; font-weight: bold; border: none; }
+div.section__article .section__element .section__element__headline .section__element__headline__content { font-size: 1.4rem; }
+div.section__article .section__element .section__element__headline .section__element__headline { display: inline-block; vertical-align: top; width: 29%; }
+div.section__article .section__element .section__element__headline .section__element__headline h2 { margin: 0 0 10px; color: darkgray; font-size: 1.6rem; font-weight: bold; }
+div.section__article .section__element .section__element__headline .section__element__content { display: inline-block; width: 71%; }
 
 /*# sourceMappingURL=Step2.css.map */
